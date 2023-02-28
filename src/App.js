@@ -1,11 +1,13 @@
 import './App.css';
 import {
-  NewHomes 
+  NewHomes ,
+  NavBar
  } from './ui-components';
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <NewHomes />
     </div>
   );
